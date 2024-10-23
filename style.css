@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgba(0, 0, 0, 0.856);
 }
@@ -21,6 +26,130 @@ a {
     background-color: transparent;
 
 }
+
+#hussain div{
+    border-radius: 12px;
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: black; */
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.color-box {
+    text-align: center;
+    padding: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+
+.color-box:nth-child(even) {
+    color: black;
+}
+
+
+@media (max-width: 1200px) {
+    .color-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .color-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .color-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .color-box {
+        padding: 35px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .color-box {
+        padding: 35px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
 
 
 
