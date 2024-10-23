@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+
+a {
+    background-color: transparent;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    display: inline-block; /* Ensures the anchor behaves like a block element while staying inline */
+    width: 150px; /* Set a fixed width (adjust as needed) */
+    text-align: center; /* Center the text inside the anchor */
+}
+
+
+#hexadecimal a{
+    background-color: transparent;
+
+}
+
+
+
+
